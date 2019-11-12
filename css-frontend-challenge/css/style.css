@@ -18,45 +18,28 @@ nav h1 {
   margin: auto;
 }
 
-.table1 {
-  border-top: 1px solid #000
-  padding: 50px;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-}
-
-.table1 h1 {
-  text-align: left;
+.bus-information h1 {
   text-transform: uppercase;
 }
 
-.table1 th {
-  font-weight: bold;
-  line-height: 1.8;
-  text-align: left;
+.bus-information li{
+  display: inline-block;
 }
 
-.table1 td {
-  line-height: 2;
+.direction {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding: 0;
+  width: 400px;
+  border-style: solid;
+  border-color: black;
 }
 
-.table2 {
-  border-top: 1px solid #000000;
+.heading h3 {
 }
 
-.table3 {
-  border-top: 1px solid #000000;
-}
-
-.table4 {
-  border-top: 1px solid #000000;
-}
-
-.table5 {
-  border-top: 1px solid #000000;
-}
 
 @media screen and (min-width: 375px) {
     width: 375px;
