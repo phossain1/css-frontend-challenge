@@ -1,10 +1,17 @@
 , *:before, *:after {   box-sizing: border-box; }
 
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #bfbfbf
+}
+
+
 nav {
   background-color: #000;
   margin: auto;
   padding: 0px
-  width: 300px;
+  width: 375px;
 }
 
 nav h1 {
@@ -12,34 +19,86 @@ nav h1 {
   text-align: center;
 }
 
+.direction {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  border: 1px solid #959595;
+  border-radius: 5px;
+  width: 300px;
+}
+
 .container {
   width: 375px;
   height: 667px;
   margin: auto;
+  background-color: white;
 }
 
 .bus-information h1 {
   text-transform: uppercase;
+  padding-bottom: 3px;
+  padding-top: 10px;
+  border-bottom: 1px solid #959595;
 }
 
 .bus-information li{
   display: inline-block;
 }
 
-.direction {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  padding: 0;
-  width: 400px;
-  border-style: solid;
-  border-color: black;
+.line {
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 57px;
 }
 
-.heading h3 {
+.destination {
+  display: inline-block;
+  padding-right: 55px;
 }
 
+.frequency {
+  display: inline-block;
+}
+
+.sixty {
+  display: inline-block;
+  padding-right: 57px;
+}
+
+.randolph {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+.ten-mins {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.onetwofour {
+  display: inline-block;
+}
+
+.Navy-Pier {
+  display: inline-block;
+}
+
+.fifteen-minutes {
+  display: inline-block;
+}
+
+.heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.details1 {
+  font-size: 12px;
+  display: inline-block;
+}
 
 @media screen and (min-width: 375px) {
     width: 375px;
