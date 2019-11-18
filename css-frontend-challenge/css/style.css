@@ -8,15 +8,22 @@ body {
 
 
 nav {
-  background-color: #000;
+  background-color: #fff;
   margin: auto;
-  padding: 0px
-  width: 375px;
+}
+
+.statusbar {
+  width: 100%;
+  background-image: url ('./images/statusbar.png');
 }
 
 nav h1 {
-  color: white;
+  color: black;
   text-align: center;
+}
+
+.map {
+  background-image: url ('./images/map.png');
 }
 
 .direction {
@@ -34,6 +41,7 @@ nav h1 {
   height: 667px;
   margin: auto;
   background-color: white;
+  overflow: scroll;
 }
 
 .bus-information h1 {
