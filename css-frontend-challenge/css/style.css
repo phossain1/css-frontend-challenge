@@ -26,6 +26,34 @@ nav h1 {
   background-image: url ('./images/map.png');
 }
 
+.black-bar {
+  background-color: black;
+  color: white;
+  width: 375px;
+  height: 30px;
+}
+
+.black-bar li {
+  display: inline-block;
+}
+
+.home {
+  padding-left: 20px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.eta {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.fourdollars {
+}
+
 .direction {
   margin-top: 20px;
   margin-left: auto;
@@ -96,11 +124,6 @@ nav h1 {
 
 .fifteen-minutes {
   display: inline-block;
-}
-
-.heading {
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .details1 {
