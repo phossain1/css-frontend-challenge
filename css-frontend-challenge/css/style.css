@@ -2,7 +2,7 @@
 
 body {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #bfbfbf
 }
 
@@ -20,6 +20,7 @@ nav {
 nav h1 {
   color: black;
   text-align: center;
+  font-size: 16px;
 }
 
 .map {
@@ -35,34 +36,49 @@ nav h1 {
 
 .black-bar li {
   display: inline-block;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .home {
   padding-left: 20px;
   padding-right: 80px;
-  padding-top: 6px;
-  padding-bottom: 6px;
 }
 
 .eta {
-  padding-left: 80px;
   padding-right: 80px;
-  padding-top: 6px;
-  padding-bottom: 6px;
 }
 
-.fourdollars {
+.fare {
+  padding-right: 20px;
 }
+
+.frequency1 {
+  display: inline-block;
+}
+
+.direction2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #E5E5E5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.direction2:hover {background-color:#B5B3B5;}
 
 .direction {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  border: 1px solid #959595;
   border-radius: 5px;
   width: 300px;
+  background-color: #E5E5E5;
 }
+
+.direction:hover {background-color:#B5B3B5;}
 
 .container {
   width: 375px;
@@ -72,64 +88,44 @@ nav h1 {
   overflow: scroll;
 }
 
+.bus-information {
+  padding-left: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .bus-information h1 {
   text-transform: uppercase;
-  padding-bottom: 3px;
-  padding-top: 10px;
-  border-bottom: 1px solid #959595;
+  font-weight: lighter;
 }
 
 .bus-information li{
   display: inline-block;
 }
 
-.line {
-  display: inline-block;
-  padding-top: 5px;
-  padding-right: 57px;
+.bus-number {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: red;
 }
 
-.destination {
-  display: inline-block;
-  padding-right: 55px;
+.direction1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #E5E5E5;
 }
 
-.frequency {
-  display: inline-block;
+.direction1:hover {background-color:#B5B3B5;}
+
+
+.destination1 {
+  padding-right: 100px;
 }
 
-.sixty {
-  display: inline-block;
-  padding-right: 57px;
-}
-
-.randolph {
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 15px;
-}
-
-.ten-mins {
-  display: inline-block;
-  padding-left: 15px;
-}
-
-.onetwofour {
-  display: inline-block;
-}
-
-.Navy-Pier {
-  display: inline-block;
-}
-
-.fifteen-minutes {
-  display: inline-block;
-}
-
-.details1 {
-  font-size: 12px;
-  display: inline-block;
-}
 
 @media screen and (min-width: 375px) {
     width: 375px;
