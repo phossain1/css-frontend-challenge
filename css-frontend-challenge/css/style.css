@@ -6,7 +6,6 @@ body {
   background-color: #bfbfbf
 }
 
-
 nav {
   background-color: #fff;
   margin: auto;
@@ -53,7 +52,17 @@ nav h1 {
   padding-right: 20px;
 }
 
-.frequency1 {
+.arrow-right {
+  display: inline-block;
+  padding-left: 84px;
+  padding-right: 16px;
+}
+
+.fa-chevron-right {
+  display: inline-block;
+}
+
+.fa-chevron-left {
   display: inline-block;
 }
 
