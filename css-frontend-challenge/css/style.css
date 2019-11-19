@@ -8,13 +8,20 @@ body {
 
 nav {
   background-color: #fff;
-  margin: auto;
+  display: inline-block;
 }
 
 nav h1 {
   color: black;
   text-align: center;
   font-size: 16px;
+}
+
+.fa-chevron-left {
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .statusbar {
@@ -71,10 +78,6 @@ nav h1 {
   display: inline-block;
 }
 
-.fa-chevron-left {
-  display: inline-block;
-}
-
 .direction2 {
   margin-top: 20px;
   margin-left: auto;
@@ -103,6 +106,14 @@ nav h1 {
   padding-left: 28px;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.frequency {
+  margin-right: 45px;
+}
+
+.frequency1 {
+  margin-right: 50px;
 }
 
 
